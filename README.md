@@ -10,7 +10,7 @@ We analyzed repositories in C, C++, C#, Java, and JavaScript and configured ConQ
 
 | Metric            | Setting                                                 |
 | ----------------- | ------------------------------------------------------- |
-| Clone Coverage    | `min. clone length`: 10                                 |
+| Clone Coverage    | `min. clone length`: 10, `max-instances`: 50            |
 | Nesting Depth     | Nesting <= 5: 'green', else 'red'                       |
 | Method Length     | method <= 75 SLOC: 'green', else 'red'                  |
 | File Size         | file <= 750 SLOC: 'green', else 'red'                   |
