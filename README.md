@@ -20,5 +20,5 @@ We analyzed repositories in C, C++, C#, Java, and JavaScript and configured ConQ
 - For C and C++ : `public & (type | method | property | attribute ) & !(simpleGetter | simpleSetter | annotated(Override) | override)`
 - For Java and C# : `type|(public&(attribute|(method&declaration)))` 
 
-### Exclusing irrelevant code
+### Excluding irrelevant code
 This repo contains resources for excluding test, generated and third-party code during static code analyses.
