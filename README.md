@@ -1,4 +1,4 @@
-# MSR Paper: Code Quality on GitHub
+# MSR17 Paper: Code Quality on GitHub
 In this repo, we provide information on how to replicate our MSR 2017 study which examined the code quality of open-source reposiotires on GitHub by using static code analysis.
 
 ### Static Analysis Tool
