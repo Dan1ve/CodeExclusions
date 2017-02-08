@@ -1,10 +1,10 @@
 # MSR Paper: Code Quality on GitHub
 In this repo, we provide information on how to replicate our MSR 2017 study which examined the code quality of open-source reposiotires on GitHub by using static code analysis.
 
-## Static Analysis Tool
+### Static Analysis Tool
 For our static analyses, we use [ConQAT](https://www.cqse.eu/en/products/conqat/overview/), a free and open-source analysis tool developed by the folks at [CQSE GmbH](https://www.cqse.eu/en/).
 
-## Analysis settings
+### Analysis settings
 
 We analyzed repositories in C, C++, C#, Java, and JavaScript and configured ConQAT to calculate the following metrics:
 
@@ -20,5 +20,5 @@ We analyzed repositories in C, C++, C#, Java, and JavaScript and configured ConQ
 - For C and C++ : `public & (type | method | property | attribute ) & !(simpleGetter | simpleSetter | annotated(Override) | override)`
 - For Java and C# : `type|(public&(attribute|(method&declaration)))` 
 
-## Exclusing irrelevant code
+### Exclusing irrelevant code
 This repo contains resources for excluding test, generated and third-party code during static code analyses.
