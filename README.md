@@ -8,8 +8,8 @@ For our static analyses, we use [ConQAT](https://www.cqse.eu/en/products/conqat/
 
 We analyzed repositories in C, C++, C#, Java, and JavaScript and configured ConQAT to calculate the following metrics:
 
-| Metric           | Setting                                                  |
-| --------------------------------------------------------------------------- |
+| Metric            | Setting                                                 |
+| ----------------- | ------------------------------------------------------- |
 | Clone Coverage    | `min. clone length`: 10                                 |
 | Nesting Depth     | Nesting <= 5: 'green', else 'red'                       |
 | Method Length     | method <= 75 SLOC: 'green', else 'red'                  |
